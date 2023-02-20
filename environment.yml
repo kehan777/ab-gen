@@ -1,0 +1,41 @@
+name: ab-env
+
+channels:
+  - nvidia     # For cuda support
+  - conda-forge
+  - defaults
+  - anaconda
+  - pytorch     # For torch series
+
+dependencies:
+  - python=3.8
+  - pip
+
+# jupyter-lab dependencies
+  - ipython           
+  - ipywidgets
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-nvdashboard
+  - jupyterlab-lsp
+  - matplotlib
+
+# machine learning & data analysis dependencies
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.6
+  - tqdm
+  - numpy          
+  - scipy
+  - pandas
+  - tensorboard
+  - keras=2.3.1
+  - tensorflow=2.2  # For HER2 Model
+  - mkl-service
+  - biopython=1.77
+  - git-lfs
+
+  - pip:
+    - -r requirements.txt
+

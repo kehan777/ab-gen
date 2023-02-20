@@ -1,0 +1,5 @@
+# For distance calculation
+python-Levenshtein
+transformers==4.6.0
+polyleven
+sentencepiece
