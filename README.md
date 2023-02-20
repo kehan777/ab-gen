@@ -1,5 +1,5 @@
 # Antibody library design with Transformer and Deep Reinforcement Learning
-This is the source code for AB-Gen, a tool for antibody library design. It can efficiently explore the antibody space and design CDRH3 sequences that fulfill muti-property constaints.
+This is the source code for AB-Gen, a tool for antibody library design. It can efficiently explore the antibody space and design CDRH3 sequences that fulfill multi-property constraints.
 
 ![Pipeline](./figures/pipeline.jpg)
 
