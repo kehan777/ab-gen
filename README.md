@@ -46,4 +46,4 @@ python generate.py --model_path data/models/Agent_mpo_final.pt --out_file result
 Run `jupyter-lab` in command line. Then open each jupyter notebook to reproduce the figures.
 
 ## License
-This code is licensed under [Creative Commons Zero v1.0 Universal License](./LICENSE).
+This code is licensed under [MIT License](./LICENSE).
